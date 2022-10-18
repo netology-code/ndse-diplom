@@ -358,7 +358,7 @@ const messages = await Chat.getHistory(id);
 
 ### 2.4. Управление объявлениями
 
-`POST /api/advertisements` — получить список объявлений.
+`POST /api/advertisements` — создать объявление.
 
 Эти данные приватные и требуют проверки аутентификации.
 
@@ -366,7 +366,7 @@ const messages = await Chat.getHistory(id);
 
 | Поле        | Тип      |
 | ----------- | -------- |
-| shotrTitle  | `string` |
+| shortTitle  | `string` |
 | description | `string` |
 | images      | File[]   |
 
